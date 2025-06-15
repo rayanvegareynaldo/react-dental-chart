@@ -1,1 +1,1 @@
-export { default as DentalChart } from "./components/chart";
+export { default as ReactDentalChart } from "./components/Chart";
