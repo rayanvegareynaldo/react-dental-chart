@@ -1,6 +1,6 @@
 # React Dental Chart
 
-A customizable dental chart component for React applications that displays both permanent and deciduous teeth with configurable colors and labels.
+A customizable and interactive dental chart component for React applications, useful for dental records, visualization, and treatment planning.
 
 ## Features
 
