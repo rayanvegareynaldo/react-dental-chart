@@ -25,7 +25,7 @@ yarn add react-dental-chart
 ## Usage
 
 ```jsx
-import { ReactDentalChart, type ToothColorStyle } from "react-dental-chart";
+import ReactDentalChart, { type ToothColorStyle } from "react-dental-chart";
 
 type ToothStatus = "healthy" | "decayed" | "extracted" | "denture" | "filled";
 
