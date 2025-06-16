@@ -85,5 +85,3 @@ export default function App() {
 | `legendLabel`   | `string`                                   | `"Legend"`       | Title or label for the legend                                            |
 | `showControls`  | `boolean`                                  | `false`          | Whether to enable interactive controls (click events, state changes)     |
 | `onDataChanged` | `(data: Record<ToothNumber, T>) => void`   | `undefined`      | Callback triggered when tooth state changes (e.g., via user interaction) |
-| `ariaLabel`     | `string`                                   | `"Dental chart"` | ARIA label for accessibility support                                     |
-| `className`     | `string`                                   | `undefined`      | Additional CSS classes for the container element                         |
