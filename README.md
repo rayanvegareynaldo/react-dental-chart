@@ -55,8 +55,7 @@ const initialData = [
 
 export default function App() {
   return (
-    <div className="min-h-screen grid place-items-center p-4 bg-gray-50">
-      <ReactDentalChart<ToothStatus>
+    <ReactDentalChart<ToothStatus>
         showControls
         showLegend
         legendLabel="Legend"
@@ -66,8 +65,7 @@ export default function App() {
         onDataChanged={(updatedData) => {
           console.log("Updated Tooth Data:", updatedData);
         }}
-      />
-    </div>
+    />
   );
 }
 ```
