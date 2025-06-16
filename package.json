@@ -1,7 +1,8 @@
 {
+  "private": false,
   "name": "react-dental-chart",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.21",
+  "description": "A customizable and interactive dental chart component for React applications, useful for dental records, visualization, and treatment planning.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -16,7 +17,19 @@
     "url": "git+https://github.com/rayanvegareynaldo/react-dental-chart.git"
   },
   "keywords": [
-    ""
+    "react",
+    "reactjs",
+    "dental",
+    "dental chart",
+    "odontogram",
+    "tooth chart",
+    "tooth diagram",
+    "dentistry",
+    "dental records",
+    "dental visualization",
+    "interactive chart",
+    "dental UI",
+    "react component"
   ],
   "author": "Rayan Reynaldo",
   "license": "ISC",
