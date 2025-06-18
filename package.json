@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "react-dental-chart",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "A customizable and interactive dental chart component for React applications, useful for dental records, visualization, and treatment planning.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
