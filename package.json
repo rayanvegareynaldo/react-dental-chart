@@ -36,7 +36,7 @@
   "bugs": {
     "url": "https://github.com/rayanvegareynaldo/react-dental-chart/issues"
   },
-  "homepage": "https://github.com/rayanvegareynaldo/react-dental-chart#readme",
+  "homepage": "https://rayanvegareynaldo.github.io/react-dental-chart/",
   "devDependencies": {
     "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
