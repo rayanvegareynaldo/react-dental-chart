@@ -1,45 +1,9 @@
-# React Dental Chart
-
-A customizable and interactive dental chart component for React applications, useful for dental records, visualization, and treatment planning.
-
-## Features
-- ✅ FDI Numbering Support: Includes both permanent and deciduous teeth based on the FDI World Dental Federation system.
-
-- 🔄 Multiple Display Modes: Toggle between combined, permanent-only, or deciduous-only views.
-
-- 🎨 Fully Customizable: Define custom tooth statuses with configurable colors and labels.
-
-- 📊 Legend Support: Optional interactive legend for toggling status visibility.
-
-- 🛠️ Interactive Controls: Built-in zoom controls and responsive behavior.
-
-- 🧠 Strict TypeScript Typing: Supports generic type-safe status keys.
-
-- 📱 Responsive Layout: Adapts seamlessly to various screen sizes and orientations.
-
-- ♿ Accessibility-Ready: Includes semantic roles and accessible labels.
-
-- 📏 Flexible Sizing: Easily constrain chart dimensions based on the viewport or container.
-
-
-
-## Installation
-
-```bash
-npm install react-dental-chart
-# or
-yarn add react-dental-chart
-```
-
-## Usage
-
-```jsx
 import ReactDentalChartProvider, {
     Legend,
     ReactDentalChart,
     ToothColorStyle,
     ZoomControls,
-} from "react-dental-chart";
+} from "../src";
 
 type ToothStatus = "healthy" | "decayed" | "extracted" | "denture" | "filled";
 
@@ -99,5 +63,3 @@ export default function App() {
         </ReactDentalChartProvider>
     );
 }
-```
-## Props

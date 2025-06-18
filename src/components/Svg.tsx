@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import { PATH_STYLE, TEXT_STYLE } from "./Constants";
-import type { ToothNumber } from "./Types";
+import { PATH_STYLE, TEXT_STYLE } from "../constants";
+import type { ToothNumber } from "../types";
 
 export const Svg: {
     tooth: ToothNumber;

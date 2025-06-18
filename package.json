@@ -1,17 +1,16 @@
 {
   "private": false,
   "name": "react-dental-chart",
-  "version": "0.0.25",
+  "version": "0.0.28",
   "description": "A customizable and interactive dental chart component for React applications, useful for dental records, visualization, and treatment planning.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs",
-    "dev": "rollup -c -w --bundleConfigAsCjs"
+    "rollup:build": "rollup -c --bundleConfigAsCjs",
+    "rollup:dev": "rollup -c -w --bundleConfigAsCjs",
+    "vite:dev": "vite --config vite.config.js"
   },
-  "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rayanvegareynaldo/react-dental-chart.git"
@@ -46,8 +45,11 @@
     "@rollup/plugin-replace": "^6.0.2",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@tailwindcss/postcss": "^4.1.10",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "path": "^0.12.7",
     "postcss": "^8.5.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -57,7 +59,14 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-serve": "^3.0.0",
+    "tailwindcss": "^4.1.10",
     "tslib": "^2.8.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.10"
   }
 }

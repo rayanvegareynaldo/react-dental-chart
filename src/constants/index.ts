@@ -1,4 +1,4 @@
-import type { ToothNumber } from "./Types";
+import type { ToothNumber } from "../types";
 
 /**
  * Default SVG path styling used for dental chart paths.

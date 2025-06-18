@@ -1,0 +1,22 @@
+# Ignore test files
+tests/
+__tests__/
+*.test.js
+
+# Ignore config or build tools
+webpack.config.js
+vite.config.js
+.eslintrc.js
+jest.config.js
+rollup.config.js
+tsconfig.json
+package.json 
+package-lock.json
+
+# Ignore documentation and local development files
+README.md
+.env*
+*.log
+
+# Ignore source code
+src/
